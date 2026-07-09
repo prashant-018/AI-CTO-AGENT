@@ -1,0 +1,64 @@
+.gitignore# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# =========================
+# Node.js / Next.js
+# =========================
+node_modules/
+.next/
+out/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+
+# =========================
+# OS Files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Cache
+# =========================
+.cache/
+*.log
+
+# =========================
+# Coverage
+# =========================
+coverage/
+
+# =========================
+# Python Test Cache
+# =========================
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# Misc
+# =========================
+*.sqlite3
+*.bak
